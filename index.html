@@ -14,10 +14,110 @@
         font-weight: bold;
       }
     </style>
-  </head>
+    <style>
+      img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+    </style>
+    <style>
+      video {
+        width: 400px;
+      }
+    </style>
+    <style>
+      ul {
+        list-style-type: square;
+      }
+    </style>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      tfoot {
+        text-align: left;
+      }
+    </style>
+    <style>
+      .product {
+        background-color: blue;
+        width: 300px;
+      }
+    </style>
+<style>
 
+.highlight {
+  background-color: aquamarine
+  ;
+}
+</style>
+
+
+  </head>
   <body>
     <img src="images/panda.jpg" alt="An image of panda" />
+    <img src="images/coffee.jpg" alt="A coffee mug on a table" />
+    <video control autoplay loop src="Videos/ocean.mp4">
+      your browser doesn't support videos.
+    </video>
+    <div class="product">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <a href="#">link</a>
+    </div>
+    <article class="article"
+     <h1>Heading</h1>
+     <p>
+      <span class="highlight">ipsum</span> dolor sit amet.</p>
+     <figure>
+      <img src="" alt="">
+      <figcaption>My coffee this morning</figcaption>
+     </figure>
+    </article>
+     <ul>
+      <li>About Me</li>
+      <li>
+        Courses
+        <ul>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+        </ul>
+      </li>
+      <li>Subscribe</li>
+      <li>Contact Me</li>
+    </ul>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expenses</th>
+        </tr>
+        <tr>
+          <th>Catagory</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>marketing</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
     <p class="username">@sukhleenbhambra</p>
     <p>I like the HTML most!</p>
   </body>
