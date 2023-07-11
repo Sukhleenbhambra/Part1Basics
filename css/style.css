@@ -1,0 +1,59 @@
+body {
+  margin: 10px;
+}
+a [href*="firefox"] {
+  color: aqua;
+}
+article p:first-of-type  {
+   font-size: 140%;
+   font-style: italic;
+}
+article :last-child{
+  font-weight:bold ;
+}
+ul li:nth-last-child(odd){
+  color: greenyellow;
+}
+a:visited {
+  color: blue;
+}a:hover, a:focus {
+  color: orangered;
+}
+p::first-letter{
+font-size: 140%;
+font-weight: bold;
+}
+p::first-line{
+   font-weight: bold;
+}
+p::selection{
+  background-color: blueviolet;
+}
+p::after{
+  content:'...';
+ display: block;
+}
+h1{
+  color: rgb(98, 40, 164);
+}
+h1{
+  color: brown !important;
+}
+p {
+  color: rgb(127, 170, 255);
+  border:1px solid black;
+}
+strong{
+  color: initial;
+   border: inherit;
+}
+.box {
+  width: ;
+height: ;
+background-color: lawngreen;
+border: 10px solid royalblue;
+border-top: 20px dashed royalblue;
+}
+
+
+  
